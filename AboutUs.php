@@ -50,7 +50,7 @@
                         technology and agriculture work hand-in-hand for sustainable and prosperous
                         rural communities.
                     </div>
-                    <div class="col-lg-7  col-12 g-0 img-fluid">
+                    <div class="col-lg-7  col-12 g-0 img-fluid rounded-6">
                         <img src="img/vision.jpg" alt="vision">
                     </div>
                 </div>

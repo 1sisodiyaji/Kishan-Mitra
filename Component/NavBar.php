@@ -1,6 +1,6 @@
 <?php
 ?>
-
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
 <nav class="navbar navbar-expand-lg navbar-light w-100">
     <!-- Container wrapper -->
     <div class="container-fluid">
@@ -45,7 +45,7 @@
             <div class="dropdown">
                 <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button"
                    data-mdb-toggle="dropdown" aria-expanded="false">
-                    <i class="fi fi-ss-bell-ring"></i>
+                   <i class="fi fi-sr-star"></i>
                     <span class="badge rounded-pill badge-notification bg-danger">1</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
