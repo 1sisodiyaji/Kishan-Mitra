@@ -1,0 +1,108 @@
+<?php
+?>
+
+<nav class="navbar navbar-expand-lg navbar-light w-100">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0 text-dark" href="../DashBoard.php">
+                <img src="../img/farmer.png"  alt="Kishan Logo" loading="lazy" height="15"/>
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly">
+                <li class="nav-item">
+                    <a class="nav-link " href="../DashBoard.php">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="../AboutUs.php">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark active " href="../Global.php">Global</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="../ContactUs.php">Contact us</a>
+                </li>
+            </ul>
+            <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+            <!-- Icon -->
+
+
+            <!-- Notifications -->
+            <div class="dropdown">
+                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button"
+                   data-mdb-toggle="dropdown" aria-expanded="false">
+                    <i class="fi fi-ss-bell-ring"></i>
+                    <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                        <a class="dropdown-item" id="manchitra" onclick="function manchitras() {
+                          var openWindowLink = document.getElementById('manchitra');
+                          openWindowLink.addEventListener('click', function(event) {
+                            event.preventDefault();
+                            window.open('https://bhunaksha.bihar.gov.in/10/indexmain.jsp', 'New Window', 'width=1100,height=550');
+                          });
+                        }
+                        manchitras()" href="#">Bhu Manchitra</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" id="News" onclick="function News() {
+                          var openWindowLink = document.getElementById('News');
+                          openWindowLink.addEventListener('click', function(event) {
+                            event.preventDefault();
+                            window.open('https://biharbhumi.bihar.gov.in/Biharbhumi/', 'New Window', 'width=1100,height=550');
+                          });
+                        }
+                        manchitras()" href="#">Bhumi  sudhar </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" id="Adhiprapti" onclick="function manchitras() {
+                          var openWindowLink = document.getElementById('Adhiprapti');
+                          openWindowLink.addEventListener('click', function(event) {
+                            event.preventDefault();
+                            window.open('https://biharhelp.in/dhan-adhiprapti-online-bihar-2023-24/', 'New Window', 'width=1100,height=550');
+                          });
+                        }
+                        manchitras()" href="#">Dhan - Adhiprapti</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Avatar -->
+            <div class="dropdown">
+                <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
+                   role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
+                         alt="Black and White Portrait of a Man" loading="lazy" />
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                    <li>
+                        <a class="dropdown-item" href="../Profile/profile_data.php">My profile</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="../Profile/Setting.php">Settings</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="../index.php">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+</nav>
