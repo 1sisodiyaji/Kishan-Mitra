@@ -46,7 +46,7 @@
 
             <div class="d-flex justify-content-center mt-3 ">
                 <a href="#"><div class="btn btn-primary text-center  m-3" onclick="UpdatePass()">Update Password</div></a>
-                <a href="Login.php"><div class="btn btn-secondary text-center m-3">Cancel</div></a>
+                <a href="../Index.php"><div class="btn btn-secondary text-center m-3">Cancel</div></a>
             </div>
         </div>
     </div>

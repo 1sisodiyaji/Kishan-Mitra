@@ -30,7 +30,6 @@ function Login() {
             }
         });
     }
-    event.preventDefault();
 }
 
 function Register() {
@@ -59,7 +58,7 @@ function Register() {
 
                 if (response === "success") {
                     console.log("Successfully Registered");
-                    window.location.href = "Login.php";
+                    window.location.href = "Index.php";
                 } else {
                     message.textContent = "Registration failed. Please check your credentials.";
                     message.textContent = "";

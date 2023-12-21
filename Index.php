@@ -1,5 +1,5 @@
 <?php
-include_once '../dbConnect.php';
+include_once 'dbConnect.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -8,8 +8,8 @@ include_once '../dbConnect.php';
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../css/mdb.min.css">
-    <link rel="shortcut icon" href="../img/farmer.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="shortcut icon" href="img/farmer.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet"
@@ -23,7 +23,7 @@ include_once '../dbConnect.php';
 
 <div class="container">
     <div class="d-flex justify-content-center align-items-center m-2">
-        <img src="../img/farmer.png" style="height: 20vh;" alt="">
+        <img src="img/farmer.png" style="height: 20vh;" alt="">
         <p style="font-size:2rem; color:rgb(182, 77, 98);" class="text-center">Welcome to Kishan-Mitra ..</p>
     </div>
     <div>
@@ -75,7 +75,7 @@ include_once '../dbConnect.php';
 
                         <div class="col-md-6 d-flex justify-content-center">
                             <!-- Simple link -->
-                            <a href="forgotPassword.php">Forgot password?</a>
+                            <a href="LogIn/forgotPassword.php">Forgot password?</a>
                         </div>
                     </div>
                     <!-- Submit button -->
@@ -122,8 +122,8 @@ include_once '../dbConnect.php';
     </div>
 </div>
 
-<script type="text/javascript" src="../js/mdb.min.js"></script>
-<script src="Login.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script src="LogIn/Login.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </body>
 

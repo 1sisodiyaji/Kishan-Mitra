@@ -24,7 +24,7 @@ function UpdatePass(){
                 console.log("Response from server: " + response);
                 if (response.status === "success") {
                     console.log("Updated");
-                    window.location.href = "Login.php";
+                    window.location.href = "Index.php";
                 } else {
                     console.log(" NOt Entered" +response.message);
                     message.textContent = "Update failed. Please check your credentials.";

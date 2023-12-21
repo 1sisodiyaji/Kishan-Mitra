@@ -23,16 +23,17 @@
 
 <body
   style="background: linear-gradient(90deg, rgba(44,70,82,1) 0%, rgba(171,217,194,1) 77%); margin: 0; padding: 0; overflow-x: hidden;">
-  <div id="wrapper">
+  <div id="wrapper" style="position: relative;">
 
     <!-- navbar -->
       <?php
       include_once 'Component/NavBar.php';
       ?>
 
-    <!-- New Section For land Knowledge & trade Data -->
+      <!-- New Section For Chatbot -->
 
-    <!-- Carousel wrapper -->
+
+      <!-- Carousel wrapper -->
       <?php
       include_once 'Component/Carousel.php';
       ?>
@@ -42,6 +43,11 @@
       include_once 'Component/Number.php';
       ?>
 
+      <div  class="d-flex justify-content-end align-items-end me-5  ">
+          <div style=" position:fixed; width: 8vh; height: 8vh; border: 2px solid white; background: green; border-radius: 10%;" class="d-flex justify-content-center align-items-center shadow-6">
+              <i class="fi fi-sr-user-robot fa-2x text-light"></i>
+          </div>
+      </div>
     <!-- weather -->
       <section>
           <div class="container ">

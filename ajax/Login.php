@@ -2,8 +2,9 @@
 include_once '../dbConnect.php';
 
 if ($_SERVER['REQUEST_METHOD'] === "POST") {
-    if ($_POST['email'] == NULL || $_POST['pass'] === NULL) {
-        echo $response(['status' => 'error', 'message' => 'Incomplete form data']);
+    if (!isset($_POST['email']) || !isset($_POST['pass'])) {
+        $response = ['status' => 'error', 'message' => 'Incomplete form data'];
+        echo"error";
     } else {
         $email = mysqli_real_escape_string($link, $_POST["email"]);
         $pass = $_POST["pass"];

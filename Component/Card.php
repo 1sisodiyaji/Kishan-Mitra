@@ -5,7 +5,7 @@
     <div class="container-fluid mt-4 P-3 ">
         <div class="row ">
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3 ">
+            <div class="col-lg-3 col-md-6 col-10 mx-auto p-3 ">
                 <div class="card h-75 text-center " style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/wheat.avif');background-size: cover;height: 25vh;"> </div>
 
@@ -18,7 +18,7 @@
             </div>
 
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3 ">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto p-3 ">
                 <div class="card h-75 text-center" style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/Rice.jpg');background-size: cover;height: 25vh;"> </div>
 
@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3 ">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto p-3 ">
                 <div class="card  h-75 text-center" style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/Grains.jpg');background-size: cover;height: 25vh;"> </div>
 
@@ -42,7 +42,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3 ">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto  p-3 ">
                 <div class="card  h-75 text-center " style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/Pasta.jpg');background-size: cover;height: 25vh;"> </div>
 
@@ -57,7 +57,7 @@
 
         <div class="row">
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto  p-3">
                 <div class="card h-100 text-center " style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/Bread.jpg');background-size: cover;height: 25vh;"> </div>
 
@@ -69,7 +69,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto  p-3">
                 <div class="card h-100 text-center " style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/Quiona.jpg');background-size: cover;height: 25vh;"> </div>
 
@@ -81,7 +81,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto  p-3">
                 <div class="card h-100 text-center " style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/Barley.webp');background-size: cover;height: 25vh;"> </div>
 
@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto  p-3">
                 <div class="card h-100 text-center " style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/Oats.jpeg');background-size: cover;height: 25vh;"> </div>
 
@@ -109,7 +109,7 @@
 
         <div class="row">
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto  p-3">
                 <div class="card h-100 text-center " style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/Cuscos.jpg');background-size: cover;height: 25vh;"> </div>
 
@@ -121,7 +121,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto  p-3">
                 <div class="card h-100 text-center " style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/BuckWheat.jpg');background-size: cover;height: 25vh;"> </div>
 
@@ -133,7 +133,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto  p-3">
                 <div class="card h-100 text-center " style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/Lentils.webp');background-size: cover;height: 25vh;"> </div>
 
@@ -145,7 +145,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="col-lg-3 col-md-6 col-10  mx-auto  p-3">
                 <div class="card h-100 text-center " style="background-color: beige;">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light" style="background-image: url('../img/ChickPeas.jpg');background-size: cover;height: 25vh;"> </div>
 

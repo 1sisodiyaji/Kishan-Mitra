@@ -23,10 +23,13 @@
                     <a class="nav-link " href="../DashBoard.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="../AboutUs.php">About Us</a>
+                    <a class="nav-link text-dark active " href="../Shopping.php">Shopping</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark active " href="../Global.php">Global</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="../AboutUs.php">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="../ContactUs.php">Contact us</a>
@@ -37,8 +40,9 @@
         <!-- Collapsible wrapper -->
 
         <!-- Right elements -->
-        <div class="d-flex align-items-center">
+        <div class="d-flex  justify-content-around align-items-center">
             <!-- Icon -->
+            <div>  <i class="fi fi-sr-shopping-cart m-2"></i> </div>
 
 
             <!-- Notifications -->
