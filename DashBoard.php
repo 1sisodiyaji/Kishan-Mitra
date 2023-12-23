@@ -8,6 +8,7 @@
   <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="shortcut icon" href="img/farmer.png" type="image/x-icon">
 
     <link rel="stylesheet" href="css/mdb.min.css">
@@ -43,11 +44,6 @@
       include_once 'Component/Number.php';
       ?>
 
-      <div  class="d-flex justify-content-end align-items-end me-5  ">
-          <div style=" position:fixed; width: 8vh; height: 8vh; border: 2px solid white; background: green; border-radius: 10%;" class="d-flex justify-content-center align-items-center shadow-6">
-              <i class="fi fi-sr-user-robot fa-2x text-light"></i>
-          </div>
-      </div>
     <!-- weather -->
       <section>
           <div class="container ">
