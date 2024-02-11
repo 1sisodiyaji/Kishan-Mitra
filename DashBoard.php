@@ -26,7 +26,11 @@ if(!isset($_SESSION['name'])){
 
     <title> DashBoard - Kishan-Mitra</title>
 </head>
-
+<style>
+    body::-webkit-scrollbar {
+        width: 0; /* Remove scrollbar space */
+    }
+</style>
 <body
         style="background:#131313; margin: 0; padding: 0; overflow-x: hidden;">
 <div id="wrapper" style="position: relative;">
@@ -36,7 +40,7 @@ if(!isset($_SESSION['name'])){
     include_once 'Component/NavBar.php';
     ?>
 
-    <!-- New Section For Chatbot -->
+    <!-- New Section For Chat bot -->
 
 
     <!-- Carousel wrapper -->
@@ -132,8 +136,8 @@ if(!isset($_SESSION['name'])){
     <!-- News -->
     <section>
         <div class="container d-flex justify-content-evenly">
-
-            <div class="card col-lg-3 col-md-3 col-sm-12 bg-dark">
+            <div class="row">
+            <div class="card col-lg-3 col-md-3 col-12 bg-dark my-2">
                 <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                     <a href="https://www.thehindubusinessline.com/economy/agri-business/urea-sales-up-8-in-october-as-higher-imports-turn-handy/article67580014.ece" target="_blank">
                         <img src="https://bl-i.thgim.com/public/incoming/mvilwj/article67580323.ece/alternates/LANDSCAPE_1200/IMG_bl09_seeding_2_1_B3BNNC0H.jpg" class="img-fluid" alt="image"/>
@@ -146,7 +150,7 @@ if(!isset($_SESSION['name'])){
             </div>
 
 
-            <div class="card col-lg-3 col-md-3 col-sm-12 bg-dark ">
+            <div class="card col-lg-3 col-md-3 col-12 bg-dark my-2">
                 <div class="bg-image hover-overlay ripple " data-mdb-ripple-color="light">
                     <a href="https://www.thehindubusinessline.com/economy/agri-business/soyabean-crushing-up-21-per-cent-in-october-on-higher-market-arrivals/article67579318.ece?cx_testId=23&cx_testVariant=cx_1&cx_artPos=0&cx_experienceId=EXEPURFQAOW6#cxrecs_s" target="_blank">
                         <img src="https://bl-i.thgim.com/public/incoming/j02mcv/article67579368.ece/alternates/LANDSCAPE_1200/soyabean.jpg" class="img-fluid" alt="image"/>
@@ -158,7 +162,7 @@ if(!isset($_SESSION['name'])){
                 </div>
             </div>
 
-            <div class="card col-lg-3 col-md-3 col-sm-12 bg-dark">
+            <div class="card col-lg-3 col-md-3 col-12 bg-dark my-2">
                 <div class="bg-image hover-overlay ripple " data-mdb-ripple-color="light">
                     <a href="https://www.thehindubusinessline.com/economy/logistics/kutch-fuels-green-hydrogen-mission/article67574630.ece?cx_testId=23&cx_testVariant=cx_1&cx_artPos=3&cx_experienceId=EXEPURFQAOW6#cxrecs_s" target="_blank">
                         <img src="https://bl-i.thgim.com/public/incoming/q18wws/article67574632.ece/alternates/LANDSCAPE_1200/BL2711_Logistics_Lead.jpg" class="img-fluid" alt="image"/>
@@ -169,6 +173,8 @@ if(!isset($_SESSION['name'])){
                 <div class="card-body text-danger">
                     <p>The water-line business  downfall has started ...</p>
                 </div>
+            </div>
+
             </div>
         </div>
     </section>

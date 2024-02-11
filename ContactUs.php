@@ -23,6 +23,11 @@ if(!isset($_SESSION['name'])){
 
     <title> Contact-Us - Kishan-Mitra</title>
 </head>
+<style>
+    body::-webkit-scrollbar {
+        width: 0; /* Remove scrollbar space */
+    }
+</style>
 <body style="background:#131313;  margin: 0; padding: 0; overflow-x: hidden;">
 
 <div id="wrapper">

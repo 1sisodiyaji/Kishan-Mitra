@@ -32,6 +32,12 @@ if(!isset($_SESSION['name'])){
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
     <title> Global - Kishan-Mitra</title>
 </head>
+<style>
+    body::-webkit-scrollbar {
+        width: 0; /* Remove scrollbar space */
+    }
+</style>
+
 
 <body>
 <div id="wrapper" style="background:#131313; ">

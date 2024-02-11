@@ -15,6 +15,11 @@ session_start();
 
     <title> My-Profile  </title>
 </head>
+<style>
+    body::-webkit-scrollbar {
+        width: 0; /* Remove scrollbar space */
+    }
+    </style>
 
 <body>
 <div id="wrapper" style="background:#131313; ">

@@ -30,6 +30,9 @@ if(!isset($_SESSION['name'])){
 
     <title> About - Kishan-Mitra</title>
     <style>
+        body::-webkit-scrollbar {
+            width: 0; /* Remove scrollbar space */
+        }
         @media only screen and (max-height: 746px) {
             .images1 {
                 height: 30vh;
@@ -59,7 +62,7 @@ if(!isset($_SESSION['name'])){
 
     <section class="container">
         <div class=" row mt-4">
-            <div class="col-lg-5 col-10 text-light">
+            <div class="col-lg-5 col-12 text-light my-2" style="font-size: 0.8rem">
                 <h2 class="text-danger text-center p-2">Our vision :</h2>
                 Empowering Agriculture Through Technology:
                 - Our vision is to empower farmers by harnessing the potential of
@@ -80,7 +83,7 @@ if(!isset($_SESSION['name'])){
                 technology and agriculture work hand-in-hand for sustainable and prosperous
                 rural communities.
             </div>
-            <div class="col-lg-7  col-10  img-fluid d-flex justify-content-center align-items-center">
+            <div class="col-lg-7  col-12  img-fluid d-flex justify-content-center align-items-center">
                 <img src="img/vision.jpg" style="height: 45vh; " alt="vision">
             </div>
         </div>
@@ -88,7 +91,7 @@ if(!isset($_SESSION['name'])){
             <div class="col-lg-5  col-10  img-fluid d-flex justify-content-center align-items-center ">
                 <img src="img/Approach.jpg" style="height: 45vh;width: 70vh; " alt="Approach">
             </div>
-            <div class="col-lg-7 col-12 text-light p-3">
+            <div class="col-lg-7 col-12 text-light p-2 my-2" style="font-size: 0.8rem">
                 <h2 class="text-danger text-center">Our Approach :</h2>
                 <br>
                 Our approach is rooted in empathy, understanding the unique challenges
@@ -108,7 +111,7 @@ if(!isset($_SESSION['name'])){
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-lg-5  col-12 text-light">
+            <div class="col-lg-5  col-12 text-light p-2 my-2 " style="font-size: 0.8rem ">
                 <h2 class="text-danger text-center">Our Process :</h2>
 
                 Establish a robust monitoring and evaluation framework to continuously assess

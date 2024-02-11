@@ -32,6 +32,9 @@ include_once 'dbConnect.php';
 
     <title> Login-Here Kishan-Mitra</title>
     <style>
+        body::-webkit-scrollbar {
+            width: 0; /* Remove scrollbar space */
+        }
         .divider:after,
         .divider:before {
             content: "";
@@ -117,14 +120,14 @@ if(isset($_POST['loginsubmit'])){
 ?>
 
 
-<section class="vh-100">
-    <div class="container-fluid m-4  h-custom">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-6 d-lg-block d-none" style="object-fit: cover;">
-                <img src="img/farmer.png" class="img-fluid" style="text-shadow:2px 2px grey;" alt="Sample image">
+<section>
+    <div class="container-fluid my-4  py-4   w-100">
+        <div class="row d-flex w-100 g-0">
+            <div class="col-6  d-lg-block d-none my-5">
+                <img src="img/farmer.png" class="img-fluid" alt="Sample image" style="object-fit: cover;">
             </div>
-            <div class=" col-lg-6 w-100  col-12   " style="box-shadow: 2px 3px 6px 8px grey">
-                <!-- Pills navs -->
+            <div class="col-lg-6" style="box-shadow: 2px 3px 6px 8px grey">
+            <!-- Pills navs -->
                 <ul class="nav nav-pills nav-justified mb-3 my-1" id="ex1" role="tablist">
                     <li class="nav-item" role="presentation">
                         <a
@@ -154,7 +157,7 @@ if(isset($_POST['loginsubmit'])){
                 <!-- Pills navs -->
 
                 <!-- Pills content -->
-                <div class="tab-content">
+                <div class="tab-content ps-2">
                     <div
                             class="tab-pane fade show active"
                             id="pills-login"
@@ -211,7 +214,8 @@ if(isset($_POST['loginsubmit'])){
 
                             <!-- Submit button -->
                             <button type="submit" name="loginsubmit" class="btn btn-dark text-danger btn-block mb-4">Sign in</button>
-                            </div>
+                        </div>
+
 
 
                         </form>
@@ -287,7 +291,8 @@ if(isset($_POST['loginsubmit'])){
             </div>
         </div>
     </div>
-    <section>
+</section>
+    <section class = "mt-4">
         <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-dark mb-0 mt-4">
             <!-- Copyright -->
             <div class=" mb-3 mb-md-0 text-danger">
@@ -313,7 +318,8 @@ if(isset($_POST['loginsubmit'])){
             <!-- Right -->
         </div>
     </section>
-</section>
+
+
 
 <!-- MDB -->
 <script

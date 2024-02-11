@@ -1,11 +1,10 @@
 <?php
 include_once 'dbConnect.php';
 session_start();
-var_dump($_SESSION);
+
 if(isset($_SESSION['email'])){
     $email = $_SESSION['email'];
 }
-
 if (isset($_POST['submit'])) {
 
     $password = mysqli_real_escape_string($link, $_POST['registerPassword']);
@@ -14,7 +13,7 @@ if (isset($_POST['submit'])) {
     if ($password === $conPassword) {
         $updatePassword = "UPDATE `user_login` SET `password`='$password' WHERE
             `username` = '$email ";
-        header('Location: logout.php');
+        header('location: DashBoard.php');
         exit(); // Ensure that the script stops execution after header redirect
     } else {
         echo "password does not match";
@@ -46,6 +45,9 @@ if (isset($_POST['submit'])) {
           href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <link rel="stylesheet" href="/stylesheets/style.css">
     <style>
+        body::-webkit-scrollbar {
+            width: 0; /* Remove scrollbar space */
+        }
         .divider:after,
         .divider:before {
             content: "";
@@ -67,15 +69,15 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body
-    style=" background: linear-gradient(90deg, rgba(44,70,82,1) 0%, rgba(171,217,194,1) 77%);width: 100vw; height: 100vh; margin: 0%; padding: 0%; overflow-x: hidden;">
+    style=" background: #131313;width: 100vw; height: 100vh; margin: 0%; padding: 0%; overflow-x: hidden;">
 
-<section class="vh-100">
+<section >
     <div class="container-fluid m-4  h-custom">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-md-9 col-lg-6 col-xl-5 " style="object-fit: cover;">
                 <img src="img/farmer.png" class="img-fluid" alt="Sample image">
             </div>
-            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 " style="box-shadow: 2px 3px 6px 8px grey">
+            <div class="col-md-8 col-lg-6  offset-xl-1 m-2 ms-0" style="box-shadow: 2px 3px 6px 8px grey">
                 <ul class="nav nav-pills nav-justified mb-3 my-1" id="ex1" role="tablist">
                     <li class="nav-item" role="presentation">
                         <a class="nav-link active bg-dark text-danger" id="tab-login" data-mdb-pill-init
@@ -130,32 +132,32 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </div>
-    <section>
-        <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-dark mb-0">
-            <!-- Copyright -->
-            <div class=" mb-3 mb-md-0 text-danger">
-                Copyright © Krida. All rights reserved.
-            </div>
-            <!-- Right -->
-            <div>
-                <a href="#!" class="text-danger me-4">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#!" class="text-danger me-4">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#!" class="text-danger me-4">
-                    <i class="fab fa-google"></i>
-                </a>
-                <a href="#!" class="text-danger">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </div>
-            <!-- Right -->
-        </div>
-    </section>
-</section>
 
+</section>
+<section>
+    <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 bg-dark mb-0 w-100">
+        <!-- Copyright -->
+        <div class=" mb-3 mb-md-0 text-danger">
+            Copyright © Kishan-Mitra. All rights reserved.
+        </div>
+        <!-- Right -->
+        <div>
+            <a href="#!" class="text-danger me-4">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#!" class="text-danger me-4">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#!" class="text-danger me-4">
+                <i class="fab fa-google"></i>
+            </a>
+            <a href="#!" class="text-danger">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+        <!-- Right -->
+    </div>
+</section>
 
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
